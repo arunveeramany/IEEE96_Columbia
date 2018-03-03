@@ -1,4 +1,4 @@
-%% MyMatlab2
+function MyMatlab2
 % This script creates the 'solution2.txt' file
 
 global pfotemp
@@ -14,3 +14,5 @@ contingFile = fullfile(scenarioDir, 'contingency.csv');
 mpc = convert2mpc(rawFile,genFile);
 contingencies = loadContingencies(mpc,contingFile);
 create_solution2(solutionMPC_FIUN, contingencies, 1);
+
+end

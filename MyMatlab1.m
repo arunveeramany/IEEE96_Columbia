@@ -1,4 +1,4 @@
-%% MyMatlab1
+function MyMatlab1
 % This script solves the problem and creates the 'solution1.txt' file
 
  global pfotemp
@@ -19,4 +19,4 @@ contingencies = loadContingencies(mpc,contingFile);
 save('solution0_FIUN.mat','solutionMPC_FIUN')
 
      
-
+end
